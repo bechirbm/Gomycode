@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h1>Portfolio</h1>
+      <ul>
+        <li>
+            <a class="active" href="#Accueil">Home</a>
+        </li>
+        <li>
+            <a href="#about">About Me</a>
+        </li>
+        <li>
+            <a href="#Educ">Education</a>
+        </li>
+        <li>
+            <a href="#skill">Skills</a>
+        </li>
+        </li>
+        <li>
+            <a href="#contac">Contact</a>
+        </li>
+    </ul>
+    </div>
+
+    <section id="about">
+      <h3>About me :</h3>
+      <h2>
+        Jeune Tunisien de 19 ans , passionné par le sport , la politique et les
+        nouvelles technologies.
+      </h2>
+
+      <img src="./img/photo de profil.png" />
+
+    </section>
+    <section>
+      <h3>My Projects :</h3>
+      <img src="./img/devpro.jpg" />
+    </section>
+
+    <section id="Educ" >
+      <h2>Education</h2>
+      <ul>
+          <li>2015 : Collége 18 janvier Ariana</li>
+          <li>2017 : Lycée Khairredine Ariana </li>
+          <li>2008 : Ecole primaire la liberté </li>
+          <li>2020 : Go My Code </li>
+      </h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/B6m-ux423C4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="skill" > 
+      <h2>Skills : </h2>
+      <h3>
+        <br />
+        *Maîtriser l'un des langages de programmation <br />
+        <br />
+        *Maitrise plusieurs langues dont : L'Arabe , le Français , L'anglais et
+        L'Espagnol <br />
+      </h3>
+    </section>
+
+    <section id="contac" >
+      <h2>Contact : </h2> 
+      <form action="/ma-page-de-contact" method="post">
+        <div>
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="user_name" />
+        </div>
+        <div>
+          <label for="mail">e-mail :</label>
+          <input type="email" id="mail" name="user_mail" />
+        </div>
+        <div>
+          <label for="msg">Message :</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <input type="submit" value="Envoyer">
+      </form>
+    </section>
+
+    <footer>
+      <h4>Powered By Go My Code</h4>
+      <ol>
+        <li>Privacy Policy</li>
+        <li>Terms of service</li>
+        <li>change log</li>
+      </ol>
+
+      <p>© 2020 All rights reserved.</p>
+    </footer>
+  </body>
+</html>
